@@ -1,0 +1,3 @@
+parameters:
+    ezpublish.persistence.slug_converter.class: BrookinsConsulting\BcLowerCaseUrlAliasBundle\Core\Persistence\Legacy\Content\UrlAlias\BcLowerCaseUnderscoreUrlAliasSlugConverter
+    # ezpublish.persistence.slug_converter.class: BrookinsConsulting\BcLowerCaseUrlAliasBundle\Core\Persistence\Legacy\Content\UrlAlias\BcLowerCaseDashUrlAliasSlugConverter

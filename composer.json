@@ -1,0 +1,25 @@
+{
+    "name": "brookinsconsulting/bclowercaseurlaliasbundle",
+    "description": "BC Lower Case Url Alias Bundle for eZ Platform. Provides basic url alias transformation configuration necessary to transform new content created or modified url aliases to lower case separated by underscore or dash characters. Great for adventurous developers!",
+    "type" : "ezplatform-bundle",
+    "keywords": [ "eZ Publish Platform", "eZ Platform", "bundle", "UrlAlias", "SlugConverter", "Classes", "content", "lowercase", "urls" ],
+    "homepage": "https://gitlab.com/brookinsconsulting/bclowercaseurlaliasbundle",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name" : "Brookins Consulting",
+            "email": "info@brookinsconsulting.com",
+            "role": "Author"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ezsystems/ezpublish-kernel": "^6.0"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "BrookinsConsulting\\BcLowerCaseUrlAliasBundle" : ""
+        }
+    },
+    "target-dir" : "BrookinsConsulting/BcLowerCaseUrlAliasBundle"
+}
